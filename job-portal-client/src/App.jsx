@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 
 
 
@@ -5,7 +6,9 @@ function App() {
 
   return (
     <>
-      <h2 className="text-4xl text-red-600">hello</h2>
+      <nav>Navbar</nav>
+      <Outlet/>
+      <footer>Footer</footer>
     </>
   )
 }
